@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="">"
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">SHREY</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>PIXELPROGRAMMER</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Hi, hoping that you're well, I'm Shrey, a passionate school student with diverse interests in technology, art, and creativity. I'm learning programming languages like Python, HTML, CSS, and JavaScript.</p>
+
+            <p>Beyond coding, I am an artist, designer, and editor, always exploring new ways to express creativity. Whether it’s crafting digital art, designing projects, or editing videos and content, I love turning ideas into reality. This space is where I share my journey, skills, and creations. Join me as I grow, learn, and innovate...</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://discordapp.com/users/1275139871752585343"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/pixelprogrammer1/profilecard/?igsh=aGs0NGl6cTdzMmJ6"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+    <script>
+        // Detect mobile browsers
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            document.body.innerHTML = `
+                <h1 class="res-title">Access Denied</h1>
+                <p class="res-msg">This website is not accessible on mobile browsers, switch to desktop mode</p>
+            `;
+            document.body.className = "cent";
+            // window.location.href = "mobile-not-supported.html";
+        }
+    </script>
+</body>
+</html>
