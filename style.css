@@ -22,6 +22,7 @@ body{
     color: white;
     user-select: none;
     outline: none;
+    cursor: url("pointer_1780.png"), auto;
 }
 
 header{
