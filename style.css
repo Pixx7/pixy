@@ -24,7 +24,7 @@ body{
     outline: none;
     cursor: url("pointer_1780.png"), auto;
 }
-a, button, input, textarea{
+a, button, input, textarea, link{
     cursor: url("pointer_1780.png"), auto;
 }
 
@@ -49,6 +49,7 @@ header{
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
+    cursor: url("pointer_1780.png"), auto;
 }
 
 .logo:hover{
@@ -147,7 +148,7 @@ span{
     width: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px solid #b74b4b;
-    cursor: pointer;
+    cursor: url("pointer_1780.png"), auto;
     transition: 0.2s linear;
 }
 
@@ -189,7 +190,7 @@ span{
     font-weight: 600;
     border: 2px solid #b74b4b;
     transition: 0.3s ease;
-    cursor: pointer;
+    cursor: url("pointer_1780.png"), auto;
 }
 
 .btn:hover{
