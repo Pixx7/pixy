@@ -191,6 +191,7 @@ span{
     border: 2px solid #b74b4b;
     transition: 0.3s ease;
     cursor: url("pointer_1780.png"), auto;
+    user-select: none;
 }
 
 .btn:hover{
