@@ -24,6 +24,9 @@ body{
     outline: none;
     cursor: url("pointer_1780.png"), auto;
 }
+a, button, input, textarea{
+    cursor: url("pointer_1780.png"), auto;
+}
 
 header{
     margin-top: 20px;
